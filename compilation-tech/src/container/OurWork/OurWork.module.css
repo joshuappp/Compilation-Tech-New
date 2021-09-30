@@ -1,0 +1,34 @@
+.OurWork {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #142557;
+    padding-top: 50px;
+}
+.OurWork__Header{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.OurWork__Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.OurWork__underline {
+    width: 100px;
+    height: 4px;
+    border: 3px solid white;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+@media(min-width: 650px){
+    .OurWork__Content {
+        flex-wrap: nowrap;
+    }
+}

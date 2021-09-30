@@ -1,0 +1,8 @@
+.Logo {
+    padding: 0px;
+    margin: 10px;
+    cursor: pointer;
+}
+.Logo img {
+    width: 80px;
+}

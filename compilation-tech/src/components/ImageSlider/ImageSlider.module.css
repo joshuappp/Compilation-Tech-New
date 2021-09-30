@@ -1,0 +1,17 @@
+.ImageSlider {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.DivOfImages {
+    width: 100%;
+    height: 100%;
+}
+.DivOfImages img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(0%);
+}
+

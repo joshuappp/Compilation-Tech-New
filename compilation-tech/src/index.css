@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+a.active {
+  color: #0097e6 !important;
+}
+a:hover {
+  color: black !important;
+}
+@media(min-width: 600px){
+
+  a.active {
+    color: #0097e6 !important;
+  }
+  a:hover {
+    color: white !important;
+  }
+
+}
+

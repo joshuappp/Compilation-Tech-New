@@ -1,0 +1,36 @@
+.MainHeader {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.Toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212529;
+    height: 50px;
+    width: 100%;
+}
+.DesktopOnly {
+    display: none;
+}
+.MobileOnly {
+    display: inline-block;
+}
+
+@media(min-width: 600px){
+
+    .Toolbar {
+        background-color: #212529;
+        height: 100px;
+    }
+    .MobileOnly {
+        display: none;
+    }
+    .DesktopOnly {
+        display: inline-block;
+    }
+
+
+}
+

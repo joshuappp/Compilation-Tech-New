@@ -1,0 +1,124 @@
+.ContactUs {
+    background-color: #212529;
+    padding: 10px 10px;
+}
+.ContactUs__header {
+    padding-bottom: 3rem;
+}
+.ContactUs__header h1{
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.ContactUs__underline {
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    margin: 0 auto;
+}
+.ContactUsContent {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    flex-wrap: wrap;
+}
+.ContactLeft {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.ContactLeft h1,
+.ContactLeft p {
+    color: white;
+}
+.ContactInfo {
+    color: white;
+}
+.ContactRight {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.ContactRight h1 {
+    color: white;
+}
+.ContactRight form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.ContactForm input {
+    height: 30px;
+}
+.ContactForm input,
+.ContactForm textarea,
+.ContactForm button {
+    margin-bottom: 10px;
+    background-color: #212529;
+    border: 2px solid white;
+    border-radius: 3px;
+    color: white;
+    font-size: 1rem;
+}
+.ContactForm input:focus,
+.ContactForm textarea:focus,
+.ContactForm button:focus {
+    outline: none;
+}
+.ContactForm button {
+    color: white;
+    width: 80px;
+    height: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.ContactForm button:active,
+.ContactForm button:hover {
+    color: #212529;
+    background-color: white;
+}
+.ContactForm input::placeholder,
+.ContactForm textarea::placeholder {
+    color: grey;
+    font-size: 1rem;
+}
+.ContactFooter {
+   color: white;
+   text-align: center;
+   background-color: #64707b;
+   height: 50px;
+   padding: 15px 0;
+}
+.ContactFooter p {
+    margin: 0;
+}
+.ContactUs_Spinner {
+    position: absolute;
+    left: 50%;
+}
+@media(max-width: 320px){
+    .ContactForm input,
+    .ContactForm textarea {
+        width: 280px;
+    }
+}
+@media(max-width: 280px){
+    .ContactForm input,
+    .ContactForm textarea {
+        width: 240px;
+    }
+}
+@media(min-width: 856px){
+    .ContactUs {
+        background-color: #212529;
+        padding-top: 50px;
+        height: 680px;
+    }
+}
+@media(min-width: 937px){
+    .ContactUs {
+        background-color: #212529;
+        padding-top: 50px;
+        height: 550px;
+    }
+}

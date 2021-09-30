@@ -1,0 +1,144 @@
+.Innovation {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 90px;
+    background-color: #142557;
+}
+.Innovation h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding-top: 50px;
+    font-size: 2rem;
+}
+.Innovation__underline {
+    width: 60px;
+    height: 4px;
+    border: 3px solid white;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.DivOfImage {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.DivOfImage img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(0%);
+}
+.Innovation__Description {
+   position: absolute;
+   bottom: 25%;
+   text-align: center;
+   color: white;
+   text-shadow: 1px 1px 2px white, 5px 0 0px #0842ee, 0 0 70px rgb(9, 13, 235);
+   font-size: 2rem;
+}
+@media(min-width: 1020px){
+    .Innovation__Description {
+        left: 2%;
+     }
+}
+@media(min-width: 1090px){
+    .Innovation__Description {
+        left: 3%;
+     }
+}
+@media(min-width: 1110px){
+    .Innovation__Description {
+        left: 4%;
+     }
+}
+@media(min-width: 1130px){
+    .Innovation__Description {
+        left: 5%;
+     }
+}
+@media(min-width: 1150px){
+    .Innovation__Description {
+        left: 5%;
+     }
+}
+@media(min-width: 1170px){
+    .Innovation__Description {
+        left: 6%;
+     }
+}
+@media(min-width: 1190px){
+    .Innovation__Description {
+        left: 7%;
+     }
+}
+@media(min-width: 1210px){
+    .Innovation__Description {
+        left: 8%;
+     }
+}
+@media(min-width: 1230px){
+    .Innovation__Description {
+        left: 9%;
+     }
+}
+@media(min-width: 1250px){
+    .Innovation__Description {
+        left: 10%;
+     }
+}
+
+@media(min-width: 1260px){
+    .Innovation__Description {
+        left: 11%;
+     }
+}
+@media(min-width: 1290px){
+    .Innovation__Description {
+        left: 12%;
+     }
+}
+@media(min-width: 1320px){
+    .Innovation__Description {
+        left: 13%;
+     }
+}
+@media(min-width: 1350px){
+    .Innovation__Description {
+        left: 14%;
+     }
+}
+
+
+@media(min-width: 1390px){
+    .Innovation__Description {
+        left: 15%;
+     }
+}
+@media(min-width: 1420px){
+    .Innovation__Description {
+        left: 16%;
+     }
+}
+
+@media(min-width: 1450px){
+    .Innovation__Description {
+        left: 17%;
+     }
+}
+@media(min-width: 1490px){
+    .Innovation__Description {
+        left: 18%;
+     }
+}
+@media(min-width: 1520px){
+    .Innovation__Description {
+        left: 19%;
+     }
+}
+@media(min-width: 1590px){
+    .Innovation__Description {
+        left: 20%;
+     }
+}

@@ -1,0 +1,40 @@
+.CircleCard_info {
+    background-color: #dfe6e1;
+    border-radius: 50%;
+    width: 245px;
+    height: 245px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.CircleCard_info p {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 1.5rem;
+    color: #212529;
+    text-align: center;
+}
+
+@media(min-width: 510px){
+    .CircleCard_info {
+        width: 160px;
+        height: 160px;
+    }
+    .CircleCard_info p {
+        text-align: auto;
+        font-size: 1rem;
+    }
+}
+@media(min-width: 800px){
+    .CircleCard_info {
+        width: 200px;
+        height: 200px;
+    }
+    .CircleCard_info p {
+        text-align: auto;
+        font-size: 1rem;
+    }
+}
+

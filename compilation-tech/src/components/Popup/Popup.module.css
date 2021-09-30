@@ -1,0 +1,141 @@
+.Popup {
+    position: fixed;
+    left: 40%;
+    top: 40%;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    z-index: 100;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px white, 7px 0 7px #0842ee, 0 0 70px rgb(9, 13, 235);
+}
+.Popup h2{
+    color: #0842ee;
+}
+.Popup button{
+    position: absolute;
+    left: 35%;
+    bottom: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #0842ee;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+}
+.Popup button:active,
+.Popup button:hover{
+    background-color: #1B1464;
+}
+@media(max-width: 280px){
+    .Popup {
+        width: 250px;
+        height: 80px;
+    }
+}
+@media(min-width: 200px){
+    .Popup {
+        left: 2%;
+    }
+    .Popup h2{
+        color: #0842ee;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+@media(min-width: 280px){
+    .Popup {
+        left: 3%;
+    }
+}
+@media(min-width: 320px){
+    .Popup {
+        left: 4%;
+    }
+}
+@media(min-width: 330px){
+    .Popup {
+        left: 5%;
+    }
+}
+@media(min-width: 350px){
+    .Popup {
+        left: 7%;
+    }
+}
+@media(min-width: 375px){
+    .Popup {
+        left: 8%;
+    }
+}
+@media(min-width: 400px){
+    .Popup {
+        left: 13%;
+    }
+}
+@media(min-width: 450px){
+    .Popup {
+        left: 18%;
+    }
+}
+@media(min-width: 500px){
+    .Popup {
+        left: 20%;
+    }
+}
+@media(min-width: 550px){
+    .Popup {
+        left: 26%;
+    }
+}
+@media(min-width: 600px){
+    .Popup {
+        left: 29%;
+    }
+}
+@media(min-width: 700px){
+    .Popup {
+        left: 27%;
+        width: 400px;
+        height: 120px;
+    }
+    .Popup h2{
+        color: #0842ee;
+        font-size: 25px;
+        text-align: center;
+    }
+    .Popup button{
+        left: 35%;
+        width: 130px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 830px){
+    .Popup {
+        left: 30%;
+    }
+}
+@media(min-width: 1000px){
+    .Popup {
+        left: 28%;
+        width: 500px;
+        height: 150px;
+    }
+    .Popup h2{
+        color: #0842ee;
+        font-size: 27px;
+        text-align: center;
+    }
+    .Popup button{
+        left: 36%;
+        width: 130px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+
+
